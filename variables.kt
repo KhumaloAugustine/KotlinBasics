@@ -10,7 +10,11 @@
  */
 
 fun main(){
-    val num1 = 2
+    val score = 12.3
 
-    println("The value of num1 is $num1")
+    println("score")
+    println("$score")
+    println("score = $score")
+    println("${score + score}")
+    println(12.3)
 }
